@@ -1,5 +1,10 @@
 @include aoa-bg-series($bg__init,$classes_init);
 
+.about{
+    &-s1,&-s2{
+        background-position-x: center!important;
+    }
+}
 .food{
     &-s3{
         *{
@@ -10,7 +15,11 @@
         background-blend-mode: multiply!important;
     }
 }
-
+.index{
+    &-s1{
+        background-position-x: 72%!important;
+    }
+}
 .text{
     &-shadow{
         text-shadow: $text__shadow;
